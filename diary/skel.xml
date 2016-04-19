@@ -1,0 +1,116 @@
+
+ 
+<rdf:RDF 
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xml:lang="ja"> 
+<channel rdf:about="http://d.hatena.ne.jp/korin/rss"> 
+	<title>gamix=korin no diary</title> 
+	<link>http://d.hatena.ne.jp/korin/</link> 
+	<description>gamix=korin no diary</description> 
+	
+	<dc:creator>korin</dc:creator> 
+	<dc:date>2008-08-31T12:37:31+09:00</dc:date> 
+	<items> 
+	<rdf:Seq> 
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/korin/20080817#1218926477"/> 
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/korin/20080810#1218372596"/> 
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/korin/20080714#1216027632"/> 
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/korin/20071130"/> 
+		<rdf:li rdf:resource="http://d.hatena.ne.jp/korin/20071003#p1"/> 
+	</rdf:Seq> 
+	</items> 
+</channel> 
+ 
+ 
+ 
+<item rdf:about="http://d.hatena.ne.jp/korin/20080817#1218926477"> 
+	<title>■</title> 
+	<link>http://d.hatena.ne.jp/korin/20080817#1218926477</link> 
+	<description> Windows2000以降のDOSの機能を2000年を8年も経過し使うことに。 例 for文でファイルを読み込む 参考にさせていただいたページ http://www.atmarkit.co.jp/fwin2k/operation/command008/command02.html http://it-is-it.net/CMD/%A5%B3%A5%DE%A5%F3%A5%C9%CA%CC/for/#w93f370</description> 
+ 
+	<content:encoded><![CDATA[ 
+		><div class="section"> 
+			<p>Windows2000以降のDOSの機能を2000年を8年も経過し使うことに。</p> 
+			<p>例</p> 
+			<p>for文でファイルを読み込む</p> 
+			<p>参考にさせていただいたページ</p> 
+			<p><a href="http://www.atmarkit.co.jp/fwin2k/operation/command008/command02.html" target="_blank">http://www.atmarkit.co.jp/fwin2k/operation/command008/command02.html</a></p> 
+			<p><a href="http://it-is-it.net/CMD/%A5%B3%A5%DE%A5%F3%A5%C9%CA%CC/for/#w93f3706" target="_blank">http://it-is-it.net/CMD/%A5%B3%A5%DE%A5%F3%A5%C9%CA%CC/for/#w93f3706</a></p> 
+			<p><a href="http://ykr414.com/dos/dos05.html#07" target="_blank">http://ykr414.com/dos/dos05.html#07</a></p> 
+			<p>正直しらなかった。DOSのcommand.comの内部コマンド shiftぐらいの記憶から止まっていた。</p> 
+			<p>CMD.EXEでfor。これは使える。。</p> 
+			<p>バックスラッシュが使えるし dir /b/adとかも知らなかった。</p> 
+			<p>クライアントが許せばすぐUnxToolsとか入れていたけれど、少しはCMD.EXEを使ってもいいころあいなのかと思う。</p> 
+			<p>（というかそろそろ非互換を理由に使わないことはできないのかと。）</p> 
+			<p>バッククォートも使えるけれどそのバッククォートの中で実行するコマンドの出力はパイプで渡せないので注意。</p> 
+		</div> 
+]]></content:encoded> 
+	<dc:creator>korin</dc:creator> 
+	<dc:date>2008-08-17T07:41:17+09:00</dc:date> 
+</item> 
+<item rdf:about="http://d.hatena.ne.jp/korin/20080810#1218372596"> 
+	<title>■</title> 
+	<link>http://d.hatena.ne.jp/korin/20080810#1218372596</link> 
+	<description> http://www.unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html http://www.nttv6.net/files/DKA-20080723.pdf 今月はこの辺を見ながらすごしてる。 下のURLをブクマする方法がわからなかったので日記にメモ。 </description> 
+ 
+	<content:encoded><![CDATA[ 
+		><div class="section"> 
+			<p><a href="http://www.unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html" target="_blank">http://www.unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html</a></p> 
+			<p><a href="http://www.nttv6.net/files/DKA-20080723.pdf" target="_blank">http://www.nttv6.net/files/DKA-20080723.pdf</a></p> 
+			<p>今月はこの辺を見ながらすごしてる。</p> 
+			<p>下のURLをブクマする方法がわからなかったので日記にメモ。</p> 
+		</div> 
+]]></content:encoded> 
+	<dc:creator>korin</dc:creator> 
+	<dc:date>2008-08-10T21:49:56+09:00</dc:date> 
+</item> 
+<item rdf:about="http://d.hatena.ne.jp/korin/20080714#1216027632"> 
+	<title>３０歳から始める電子工作</title> 
+	<link>http://d.hatena.ne.jp/korin/20080714#1216027632</link> 
+	<description> 今日は会社が休みだったので自宅でハンダテラピー ADM232を使ったレベル変換モジュールを作ってみた。 </description> 
+ 
+	<content:encoded><![CDATA[ 
+		><div class="section"> 
+			<p>今日は会社が休みだったので自宅でハンダテラピー</p> 
+			<p>ADM232を使ったレベル変換モジュールを作ってみた。</p> 
+		</div> 
+]]></content:encoded> 
+	<dc:creator>korin</dc:creator> 
+	<dc:date>2008-07-14T18:27:12+09:00</dc:date> 
+</item> 
+<item rdf:about="http://d.hatena.ne.jp/korin/20071130"> 
+	<title>2007-11-30</title> 
+	<link>http://d.hatena.ne.jp/korin/20071130</link> 
+	<description> qmailのライセンスが変わりそう。 一次情報にはまだ当たってないけど、今年のソフトウェアの話題では個人的に一番でかいな </description> 
+ 
+	<content:encoded><![CDATA[ 
+		><div class="section"> 
+			<p>qmailのライセンスが変わりそう。</p> 
+			<p>一次情報にはまだ当たってないけど、今年のソフトウェアの話題では個人的に一番でかいな</p> 
+		</div> 
+]]></content:encoded> 
+	<dc:creator>korin</dc:creator> 
+	<dc:date>2007-11-30</dc:date> 
+</item> 
+<item rdf:about="http://d.hatena.ne.jp/korin/20071003#p1"> 
+	<title>_</title> 
+	<link>http://d.hatena.ne.jp/korin/20071003#p1</link> 
+	<description> 念のためですが生きてます。 今日はqmailと格闘 パッチ地獄と言う人もいるけど個人的にはまだいけると思う。 (個人的にはを付けないといけないところがいけてないと言う人も多いかも) いつぞやも書いたけどドキュメントは本家かその翻訳がおすすめ あとこれは自分でも出来て</description> 
+ 
+	<content:encoded><![CDATA[ 
+		><div class="section"> 
+			<p>念のためですが生きてます。 </p> 
+			<p>今日はqmailと格闘 パッチ地獄と言う人もいるけど個人的にはまだいけると思う。</p> 
+			<p>(個人的にはを付けないといけないところがいけてないと言う人も多いかも)</p> 
+			<p>いつぞやも書いたけどドキュメントは本家かその翻訳がおすすめ</p> 
+			<p> あとこれは自分でも出来てないけどソースを読むのはもいい。</p> 
+			<p>もひとつ、配布されてるファイル以外にconf-系のファイルを適当にいじって、ビルド後に出来てるもの見るのも少し理解に役立った。</p> 
+		</div> 
+]]></content:encoded> 
+	<dc:creator>korin</dc:creator> 
+	<dc:date>2007-10-03</dc:date> 
+</item> 
+</rdf:RDF> 
