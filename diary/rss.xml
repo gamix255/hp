@@ -11,19 +11,19 @@
 	<description> Mototsugu Ohgami Diary (private) </description> 
 
 	<dc:creator>Mototsugu Ohgami</dc:creator> 
-	<dc:date>2017-05-11T19:13:05</dc:date> 
+	<dc:date>2017-08-09T00:24:17</dc:date> 
 	<items> 
 	<rdf:Seq> 
-<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/201705.html#11"/>
+<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/201708.html#08"/>
 	</rdf:Seq> 
 	</items> 
 </channel> 
  
 
-<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/201705.html#11"> 
-	<title>2017-05-11</title> 
-	<link>http://xn--t3r91c1zas37f.jp/diary/201705.html#11</link> 
-	<description> 2017-05-11</description> 
+<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/201708.html#08"> 
+	<title>2017-08-08</title> 
+	<link>http://xn--t3r91c1zas37f.jp/diary/201708.html#08</link> 
+	<description> 2017-08-08</description> 
  
 	<content:encoded><![CDATA[ 
 		><div class="section"> 
@@ -32,7 +32,7 @@
 		</div> 
 ]]></content:encoded> 
 	<dc:creator>Mototsugu Ohgami</dc:creator> 
-	<dc:date>2017-05-11T00:00:00+09:00</dc:date> 
+	<dc:date>2017-08-08T00:00:00+09:00</dc:date> 
 </item> 
 
 </rdf:RDF> 
