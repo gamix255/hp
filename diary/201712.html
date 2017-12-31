@@ -31,6 +31,19 @@
 </p>
 <p>
 <p>
+<p>
+Google Home mini  を買ったのでSDKなどについての今夜、いくつかの記事を検索して読んだ結果のまとめを書きます。(主に忘年会で出た話題のフォローアップですが、実際に試してはいません。)
+
+<ul> 
+<li>Actions on GoogleとIFTTTでできることは似ている。Actions on Google テスト期間のアプリ１週間問題については、DialogFlowではなくActions SDKを使って作りcronを使って定期的なデプロイするとよい。（参考記事 <a href='https://qiita.com/odetarou/items/3bb06de7276fa104236f'>https://qiita.com/odetarou/items/3bb06de7276fa104236f</a>）</li> 
+<li>Actions On Google 用の作り込みにはDialogFlowもしくは、Actions SDKを用いるが、Google Assistant SDK というものもあり、こちらは、Google Homeのようなデバイスそのものを作るときに使える。</li> 
+<li>google-home-notifier.jsと言うものを使えば外部からのイベントでしゃべらせることができる。</li> 
+<li>実際の宅内でＬチカする際はIFTTT経由でWebHookで直接自宅のグローバルＩＰ叩くか、Blynkなどのサービスを経由する事例が多い。</li> 
+</ul>
+
+最後のところでちょっとだけ出てきたBlynkはスマホからデバイスを制御する際のもっとも簡単な手段として、今年いくつか試してました。
+</p>
+
 </p>
 
 
