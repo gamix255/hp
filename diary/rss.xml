@@ -11,19 +11,19 @@
 	<description> Mototsugu Ohgami Diary (private) </description> 
 
 	<dc:creator>Mototsugu Ohgami</dc:creator> 
-	<dc:date>2017-12-31T16:26:02</dc:date> 
+	<dc:date>2018-05-14T23:38:33</dc:date> 
 	<items> 
 	<rdf:Seq> 
-<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/201712.html#31"/>
+<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/201805.html#14"/>
 	</rdf:Seq> 
 	</items> 
 </channel> 
  
 
-<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/201712.html#31"> 
-	<title>2017-12-31</title> 
-	<link>http://xn--t3r91c1zas37f.jp/diary/201712.html#31</link> 
-	<description> 2017-12-31</description> 
+<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/201805.html#14"> 
+	<title>2018-05-14</title> 
+	<link>http://xn--t3r91c1zas37f.jp/diary/201805.html#14</link> 
+	<description> 2018-05-14</description> 
  
 	<content:encoded><![CDATA[ 
 		><div class="section"> 
@@ -32,7 +32,7 @@
 		</div> 
 ]]></content:encoded> 
 	<dc:creator>Mototsugu Ohgami</dc:creator> 
-	<dc:date>2017-12-31T00:00:00+09:00</dc:date> 
+	<dc:date>2018-05-14T00:00:00+09:00</dc:date> 
 </item> 
 
 </rdf:RDF> 
