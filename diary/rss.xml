@@ -14,16 +14,16 @@
 	<dc:date>2018-06-09T14:32:24</dc:date> 
 	<items> 
 	<rdf:Seq> 
-<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/20180618.html#09"/>
-<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/20180618.html#14"/>
+<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/201806.html#09"/>
+<rdf:li rdf:resource="http://xn--t3r91c1zas37f.jp/diary/201806.html#14"/>
 	</rdf:Seq> 
 	</items> 
 </channel> 
  
 
-<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/20180618.html#14"> 
+<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/201806.html#14"> 
 	<title>2018-06-14</title> 
-	<link>http://xn--t3r91c1zas37f.jp/diary/20180618.html#14</link> 
+	<link>http://xn--t3r91c1zas37f.jp/diary/201806.html#14</link> 
 	<description> 2018-06-14</description> 
  
 	<content:encoded><![CDATA[ 
@@ -37,9 +37,9 @@
 </item> 
 
 
-<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/20180618.html#09"> 
+<item rdf:about="http://xn--t3r91c1zas37f.jp/diary/201806.html#09"> 
 	<title>2018-06-09</title> 
-	<link>http://xn--t3r91c1zas37f.jp/diary/20180618.html#09</link> 
+	<link>http://xn--t3r91c1zas37f.jp/diary/201806.html#09</link> 
 	<description> 2018-06-09</description> 
  
 	<content:encoded><![CDATA[ 
