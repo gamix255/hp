@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/style.css"> 
+<meta http-equiv="Content-Type" content="text/html">
+
+
+<title>
+大神基嗣の日記 2018/09
+</title>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="./rss.xml">
+</head>
+<body>
+<br>
+<p></p>
+
+<h2>2018/09</h2>
+<p>
+<h4><a href="#10" name="10">/10</a></h4>
+</p>
+
+<p>
+</p>
+<p>
+日記があまりかけていないので最近やってた趣味の活動のリハビリと日記のリハビリとして書いてみる。(先々月に引き続き)
+</p>
+<p>
+	家で久々に時間をとることができたので、秋月電子通商の4x3キーパッド作成キットを組み立て、FTDI　BasicとArduino pro（168のやつ）を経由して動作を確認。Ubuntuで初めてArduinoIDEを起動したような気もする。RaspberryPI Zeroにもピンヘッダをつける。こちらは動作確認はまだしていない。久々のハンダテラピーだった。キーパッド作成キットの動作確認には、<a href="https://playground.arduino.cc/Main/KeypadTutorial">
+https://playground.arduino.cc/Main/KeypadTutorial</a>のソースの一部を次のように修正して利用した。
+<pre>
+変更前
+// Connect keypad ROW0, ROW1, ROW2 and ROW3 to these Arduino pins.
+byte rowPins[ROWS] = { 9, 8, 7, 6 };
+// Connect keypad COL0, COL1 and COL2 to these Arduino pins.
+byte colPins[COLS] = { 12, 11, 10 };
+変更後
+byte rowPins[ROWS] = { 5, 4, 3, 2 };
+byte colPins[COLS] = { 8, 7, 6 }; 
+</pre>
+</p>
+<p>
+ハードウェアが揃った後、ソフトウェア的な動作確認に費やした作業は、IDEのダウンロードからボード選択、ライブラリ追加、ソース修正まで含めて30分くらいだった。エコシステムってすごいなあ、巨人の肩にのるというのはこういうことか。と思った。
+</p>
+<p>
+</p>
+<p>
+</p>
+
+
+
+</body>
+</html>
