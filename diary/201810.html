@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/style.css"> 
+<meta http-equiv="Content-Type" content="text/html">
+
+
+<title>
+大神基嗣の日記 2018/10
+</title>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="./rss.xml">
+<script src="https://cdn.rawgit.com/chjj/marked/master/marked.min.js"></script>
+</head>
+<body>
+<br>
+<p></p>
+
+<h2>2018/10</h2>
+<p>
+<h4><a href="#31" name="31">/31</a></h4>
+</p>
+
+<p>
+</p>
+<p>
+公開が遅くなったので、12月31日にmarkd.js経由で公開してみます。simplenoteで書き溜めてました。
+<br>
+公開してる今日は、ipadmini+shelly+TK0FBP052+VPS+vim+tmux+uimでした。この後は日付が昇順になります。　
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+
+
+<div id="markdjs"></div>
+<div id="markdown" style="display:none;">
+
+###10月3日
+
+精密カッターで「長くて割れるピンヘッダ？」に切れ目をつけて、ラジオペンチで割ってみた
+
+フリスクケース基板を精密カッターで切れ目を深くして手で割ってみた。精密カッターと精密ニッパーを購入したのは初めてだけれど作業効率が上がって快適。
+
+フリスクケースを精密ニッパーで切ってラジオペンチでこじってみた。うちにあったフリスクのケースは古くて小さいタイプっぽいが、今回買った基板はちょうどよいサイズだった。
+
+10月4日 
+ダイソーの電卓のキーマトリックスを読む。
+
+10月5日
+uctronicsのLCD35ドライバをRaspberry Pi Zeroに入れてみる。
+作業環境にHDMIモニタもUSBキーボードもなかったため、
+別のPCで/boot/config等を書き換えて、PCからUSB経由でSSHする。
+
+
+10月10日
+USBキーボードをつなぐことで、
+jfbterm+tmuxの自動ログインまで進む。
+スマホのUSBテザリング→Raspberrypi とした場合、サブネット宛のPINGをアプリで行って、
+SSHして、操作ができるようになった。
+bluetoothctlをしばらく手動起動するとraspberrypi zero がキーボードを認識する。自動化できていない。
+
+10月11日
+Flutter Stdioというものを見て、Flutterに興味を持つ。Dart2かー。
+あと日記をSimplenoteに書き始める。
+
+10月12日
+Flutter等についての記事について、（自分の恥ずかしい思い違いによって）、半分見当違いのコメントをしてしまう。
+
+10月15日
+Simplenoteの公開機能を試す。結構良い感じ
+
+10月18日
+ハンダテラピー秋月電子の4x3キーパッド2つ目を組み立て、Arduinoで動くことを確認する。
+
+10月19日
+Arduinoに秋月の4x3キーパッドを２つつないでみた。
+3本側を分岐して、スケッチ上では３×８のキーパッドに見える。
+スケッチは相変わらず、keypadライブラリをそのまま使っている。
+
+10月20日
+実家にて、RaspberryPi Zeroに
+シリアルポートから/dev/uinputに流すpythonのコードを仕込んでみた。
+秋月の4x3キーパッド
+→Arduino
+→RaspberryPi
+→表示を3.5インチLCD
+とここまで来た。
+
+
+10月21日
+昨日借りたスラスラ読めるJavaScriptふりがなプログラミングをやってみる。
+T90CHIのキーボードが不調になってきた。
+ELECOM FCM-077PBKをT90CHIにつないでみている。意外と快適ではある。
+
+10月22日
+昨日ぐらいからATS言語が気にかかっている。。。
+
+10月23日
+10月20日の成果（RaspberryPi Zero側でシリアル→uinput）に加えて
+6月25日の成果（ポケコンパラレルポート→Arduino→シリアル）
+を組み合わせて、Raspberry Pi Zeroのキーボードとして、ポケコンを使う。をやってみる。
+ついでに、Instagramデビュー
+
+10月24日
+昨日のInstagramの７イイネで承認欲求を満たされてしまったため、
+購入済みの4×3キーパッド、3個目を組み立てることなく、Progateのスマホアプリと「スラスラ読める javascript ふりがなプログラミング」を始めてみる。
+
+
+10月25日
+Spckエディターというものを試してみる。
+「スラスラ読めるjavascript」を写経する。
+
+
+
+</div>
+<script>
+  document.getElementById("markdjs").innerHTML = marked(document.getElementById("markdown").innerHTML);
+</script>
+</body>
+</html>
+
