@@ -1,5 +1,6 @@
 @charset "euc-jp";
 /*
+Based on Flower changed by gamix255
 Title: Flower
 Revision: $Revision: 1.4 $
 Author: Nana
@@ -424,11 +425,11 @@ p.message {
 */
 pre {
 	background-color: #eee;
-	color: #555555;
+	color: #ddddcc;
 	margin-left: 2em;
 	margin-right: 1em;
 	padding: 8px 8px 8px 8px;
-	border-left: 5px solid #000;
+	border-left: 5px solid #ddc;
 }
 
 /*
