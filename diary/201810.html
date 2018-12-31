@@ -32,13 +32,12 @@
 </p>
 <p>
 </p>
-<div id="markdjs"></div>
+<div id="content"></div>
 
 <script src="https://cdn.rawgit.com/chjj/marked/master/marked.min.js"></script>
 <script>
-  document.getElementById("markdjs").innerHTML = marked(document.getElementById("markdown").innerHTML);
-</script>
-<div id="markdown" style="display:none;">
+  document.getElementById("content").innerHTML = 
+  marked('
 
 ###10月3日
 
@@ -114,7 +113,8 @@ ELECOM FCM-077PBKをT90CHIにつないでみている。意外と快適ではあ
 10月25日
 Spckエディターというものを試してみる。
 「スラスラ読めるjavascript」を写経する。
-
+');
+</script>
 
 
 </div>
